@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+
+<VBox spacing="10" alignment="CENTER"
+    xmlns="http://javafx.com/javafx/8.0.171"
+    xmlns:fx="http://javafx.com/fxml/1" fx:controller ="com.example.librarymanager.controller.WelcomeViewController">
+
+    <Label text="Bienvenue dans votre bibliothèque en ligne !"/>
+    <Button text="Voir Livres" fx:id="btnVoirLivres"/>
+    <Button text="Gérer Emprunts" fx:id="btnGererEmprunts"/>
+    <Button text="Quitter" onAction="#quitter" fx:id="closebtn" />
+</VBox>
+<!-- This is the main view of the application. It contains buttons to navigate to different functionalities. -->
+<!-- The buttons are linked to their respective controllers and actions. --> 
