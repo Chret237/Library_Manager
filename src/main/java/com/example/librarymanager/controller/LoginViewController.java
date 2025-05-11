@@ -12,7 +12,7 @@ public class LoginViewController
     private Label label;
 
     public void initialize() {
-        // TODO
+        
     }
 
     @FXML

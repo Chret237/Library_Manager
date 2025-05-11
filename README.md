@@ -2,7 +2,7 @@
 
 ## Fonctionalities
 
-1. Add book
-2. View book details
-3. Update book
-4. Delete book
+1. Add a book
+2. View books details
+3. Update a book
+4. Delete a book

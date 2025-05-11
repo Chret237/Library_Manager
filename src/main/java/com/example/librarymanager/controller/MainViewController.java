@@ -45,7 +45,7 @@ public class MainViewController
         showLivreDetails(null);
 
         livreTable.getSelectionModel().selectedItemProperty().addListener(
-          (Observable, oldValue, newValue) -> showLivreDetails(newValue)
+            (_, _, newValue) -> showLivreDetails(newValue)
         );
     }
 
@@ -95,7 +95,6 @@ public class MainViewController
     public void deleteBtnHandler() {
         int selectedIndex = livreTable.getSelectionModel().getSelectedIndex();
         if (selectedIndex >= 0) {
-            // TODO : Ajouter une alerte de type confirmation
             livreTable.getItems().remove(selectedIndex);
             System.out.println("livre supprimé");
         } else {
